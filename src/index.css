@@ -6,3 +6,16 @@ body {
     font-family: Manrope, serif;
     color: #090F1D;
 }
+
+a:link {
+    color: #090F1D;
+}
+
+a:visited {
+    color: #090F1D;
+}
+
+a:active {
+    color: #090F1D;
+}
+
