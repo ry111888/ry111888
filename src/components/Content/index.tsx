@@ -1,4 +1,4 @@
-import {Box, Typography} from "@mui/material";
+import {Box, Button, Typography} from "@mui/material";
 import React from "react";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
@@ -7,7 +7,8 @@ function Content(){
     <Box sx={{
       marginTop: {
         md: '149px',
-        sm: '90px'
+        sm: '90px',
+        xs: '150px'
       }
     }}>
       <Box style={{
@@ -21,7 +22,8 @@ function Content(){
           xl: '96px',
           lg: '68px',
           md: '40px',
-          sm: '30px'
+          sm: '30px',
+          xs: '25px'
         },
         width: {
           xl: '1168px',
@@ -41,7 +43,7 @@ function Content(){
           fontSize: 'inherit',
           color: '#EC5239',
           marginLeft: {
-            xs: '40px',
+            xs: '8px',
             xl: '40px',
             lg: '30px',
             md: '20px',
@@ -53,13 +55,18 @@ function Content(){
         <br/>
         Software Engineer & Frontend Developer
       </Box>
-      <Box style={{
-        marginTop: '30px'
+      <Box sx={{
+        marginTop: '30px',
+        width: {
+          sm: '238px',
+          xs: '100%'
+        }
       }}>
         <button style={{
+          borderRadius: 0,
           background: '#EC5239',
           height: '50px',
-          width: '238px',
+          width: '100%',
           border: 'none',
           color: 'white',
           fontSize: '16px',

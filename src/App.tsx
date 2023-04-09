@@ -8,9 +8,13 @@ import BackgroundFigure from "./components/BackgroundFigure";
 function App() {
   return (
     <>
-      <Box style={{
+      <Box sx={{
         position: 'relative',
-        padding: '80px 162px',
+        padding: {
+          md: '80px 162px',
+          sm: '40px 80px',
+          xs: '20px 10px'
+        },
         zIndex: 2
 
       }}>

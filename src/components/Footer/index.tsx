@@ -6,7 +6,7 @@ function Footer(){
     <Box sx={{
       marginTop: {
         md: '120px',
-        sm: '60px'
+        xs: '60px'
       },
       fontSize: '12px',
       fontWeight: 'bold',
