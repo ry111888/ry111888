@@ -3,12 +3,20 @@ import img from "./backgroundFigure.svg"
 
 function BackgroundFigure(){
   return (
-    <Box style={{
+    <Box sx={{
       position: 'absolute',
-      width: '1000px',
+      width: {
+        xl: '1000px',
+        lg: '800px',
+        md: '600px'
+      },
       top: '60px',
       zIndex: 1,
-      right: '110px',
+      right: {
+        xl: '110px',
+        lg: '140px',
+        md: '140px'
+      },
     }}>
       <img src={img} alt=''/>
 

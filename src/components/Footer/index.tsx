@@ -3,8 +3,11 @@ import FooterLink from "../FooterLink";
 
 function Footer(){
   return (
-    <Box style={{
-      marginTop: '120px',
+    <Box sx={{
+      marginTop: {
+        md: '120px',
+        sm: '60px'
+      },
       fontSize: '12px',
       fontWeight: 'bold',
       textTransform: 'uppercase'

@@ -1,11 +1,14 @@
-import {Box} from "@mui/material";
+import {Box, Typography} from "@mui/material";
 import React from "react";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Content(){
   return (
-    <Box style={{
-      marginTop: '149px'
+    <Box sx={{
+      marginTop: {
+        md: '149px',
+        sm: '90px'
+      }
     }}>
       <Box style={{
         fontSize: '15px',
@@ -13,20 +16,40 @@ function Content(){
       }}>
         HELLO!
       </Box>
-      <Box style={{
-        fontSize: '96px',
-        width: '1168px',
-        lineHeight: '100px',
+      <Box sx={{
+        fontSize: {
+          xl: '96px',
+          lg: '68px',
+          md: '40px',
+          sm: '30px'
+        },
+        width: {
+          xl: '1168px',
+          lg: '800px',
+          md: '600px',
+          xs: '100%'
+        },
+        lineHeight: {
+          xl: '100px',
+          lg: '80px',
+          sm: '35px'
+        },
         marginTop: '20px'
-
       }}>
         I'm
-        <span style={{
+        <Typography component='span' sx={{
+          fontSize: 'inherit',
           color: '#EC5239',
-          marginLeft: '40px'
+          marginLeft: {
+            xs: '40px',
+            xl: '40px',
+            lg: '30px',
+            md: '20px',
+            sm: '12px'
+          }
         }}>
           Yi Ren
-        </span>
+        </Typography>
         <br/>
         Software Engineer & Frontend Developer
       </Box>
